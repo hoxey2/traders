@@ -33,6 +33,7 @@
 						<div class="text">
                             <a href="get?bno=${file.bno}" style="color:white; font-size:2.0em; font-weight:bold;">${file.title}</a> <br>
 						    <a href="get?bno=${file.bno}" style="color:white;" >${file.writer}</a>
+						    <a href="get?bno=${file.bno}" style="color:white;" >${file.content}</a>
 						</div>
 						<a href="${display}${file.fileUrl}" class="icon image-popup d-flex justify-content-center align-items-center">
 							<span class="icon-expand"></span>
@@ -40,18 +41,6 @@
 					</div>
 				</div>
 			</c:forEach>
-			<!-- <div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="project">
-					<img src="images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
-					<div class="text">
-						<span>Interior Design</span>
-						<h3>Office Interior Design</h3>
-					</div>
-					<a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-						<span class="icon-expand"></span>
-					</a>
-				</div>
-			</div> -->
 		</div>
 	</div>
 
