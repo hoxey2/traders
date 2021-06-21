@@ -5,6 +5,10 @@
 <%@include file="../includes/header.jsp"%>
 
 <style>
+p{
+        margin-right: 40px;
+        text-align: center;
+    }
 
 .btn.btn-primary {
      width: 350px;
@@ -66,12 +70,12 @@
             </c:forEach>
 
             <div>
-                <canvas id="myChart" width="650" height="650" style="margin-bottom: 100px"></canvas>
-
-            <a href="/asset/modify" class="form-control btn btn-primary rounded submit px-3"> 수정 </a>
-            &nbsp;&nbsp;
-            <a href="/main" class="form-control btn btn-primary rounded submit px-3"> 뒤로가기 </a>
-
+                <canvas id="myChart" width="650" height="650" style="margin-top: 100px; margin-bottom: 100px"></canvas>
+                <p>
+                    <a href="/asset/modify" class="form-control btn btn-primary rounded submit px-3" style="margin:0 auto"> 수정 </a>
+                    &nbsp;&nbsp;
+                    <a href="/main" class="form-control btn btn-primary rounded submit px-3" style="margin:0 auto"> 뒤로가기 </a>
+                </p>
         </div>
     </div>
 </section>
