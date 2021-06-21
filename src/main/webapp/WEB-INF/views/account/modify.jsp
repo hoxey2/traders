@@ -67,25 +67,6 @@
     </section>
 </body>
 
-<form action="/account/modify" method="post" id="form">
-
-<label>나의 계좌번호(변경 불가)</label><input type="text" name='account_number' value='<c:out value="${account.account_number}"/>' readonly>
-<br>
-<label>변경할 계좌 비밀번호 4자리 입력</label><input type="text" name='account_pw' value='<c:out value="${account.account_pw}"/>' >
-<br>
-<label>나의 주민번호(변경 불가)</label><input type="text" name='birth' value='<c:out value="${account.birth}"/>' readonly>
-<br>
-<label>변경할 연락처 숫자만 입력</label><input type="text" name='phone_number' value='<c:out value="${account.phone_number}"/>' >
-<br>
-<input type="hidden" name="member_id" value="${member.id}">
-<br>
-<button type="submit">수정 하기</button>
-<br>
-<button type="submit" id="delete">삭제 하기</button>
-<br>
-<a href="/account/get">뒤로가기</a>
-
-</body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
 

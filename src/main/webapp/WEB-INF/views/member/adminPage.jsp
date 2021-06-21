@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page isELIgnored="false" contentType = "text/html; charset=UTF-8" %>
-<%@include file="../includes/boardHeader.jsp"%>
+<%@include file="../includes/adminHeader.jsp"%>
 
 <body>
 
@@ -52,11 +52,6 @@
 
 <div class="row">
 	<div class="col-lg-12">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<button id='regBtn' type="button" class="btn btn-xs pull-right">Register
-					New Board</button>
-			</div>
 			<!-- /.panel-heading -->
 			<div class="panel-body">
 				<table class="table table-striped table-bordered table-hover">
