@@ -64,25 +64,13 @@
                 </div>
                 <br>
             </c:forEach>
-            <br>
-            <br>
-            <br>
-            <br>
 
             <div>
                 <canvas id="myChart" width="650" height="650"></canvas>
-            </div>
-
-            <br>
-            <br>
-            <br>
-            <br>
 
             <a href="/asset/modify" class="form-control btn btn-primary rounded submit px-3"> 수정 </a>
-            &nbsp;&nbsp;&nbsp;
-            <br></br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
             <a href="/main" class="form-control btn btn-primary rounded submit px-3"> 뒤로가기 </a>
-
 
         </div>
     </div>
