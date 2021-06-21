@@ -18,7 +18,7 @@
 		</div>
 	</section>
 	<br>
-    <a href="/gallery/register" role="button" class="btn btn-primary float-right">사진 등록하기</a>
+    <a href="/gallery/register" role="button" class="btn btn-primary float-right" style="margin-right:25px">사진 등록하기</a>
     <br>
     <br></br>
 
