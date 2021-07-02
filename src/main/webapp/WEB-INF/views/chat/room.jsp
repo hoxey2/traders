@@ -8,7 +8,7 @@
 <body>
     <div class = "container" style="margin-left:465px;" width="350px">
         <h1>STock Talk!</h1>
-        <div id="roomContainer" class="roomContainer">
+        <div id="roomContainer" class="roomContainer" style="margin-left:100px;">
             <table id="roomList" class="roomList">
 
             </table>
